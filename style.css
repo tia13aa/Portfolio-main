@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    
+}
+@keyframes fadeout{
+    to{
+        opacity: 0;
+        transform: translate(-50%,-50%) scale(0.5);
+    }
+}
+nav{
+    background-color: rgba(245, 245, 245, 0.523);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+     font-family: "Shadows Into Light", cursive;
+    position: fixed;
+    font-size: 26px;
+    width: 100%;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 50px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    
+}
+nav a:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #b7c3ec,
+                 0 0 20px #6d74bd,
+                 0 0 40px #7f8bcb,
+                 0 0 80px #7970bc,
+                 0 0 120px #71a0cf,
+                 0 0 180px #797ad8;
+
+}
+nav li:first-child{
+    margin-right: auto;
+}
+h1{
+    font-weight: 500;
+    color: #222;
+    letter-spacing: 3px;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 75px;
+    position: absolute;
+    top: 34%;
+    left: 190px; 
+    transform: translateY(-50%);
+
+}
+h1 span{
+    transition: 0.3s;
+    cursor: pointer;
+}
+h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #b7c3ec,
+                 0 0 20px #c7cbf7,
+                 0 0 40px #7fa0cb,
+                 0 0 80px #b7caeb,
+                 0 0 120px #71a0cf,
+                 0 0 180px #a7c0e1;
+}
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+}
+.cursor-trail {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+
+  opacity: 0.8;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease, opacity 0.4s ease;
+
+    clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #222;
+    letter-spacing: 3px;
+    font-family: "Shadows Into Light", cursive;
+
+    position: absolute;
+    top: 41%;
+    left: 190px;
+    transform: translateY(-50%);
+
+}
+p2{ font-size: 20px;
+     font-weight: 500;
+    color: #222;
+    letter-spacing: 3px;
+    font-family: "Shadows Into Light", cursive;
+    position: absolute;
+    top: 45%;
+    left: 190px;
+    transform: translateY(-50%);
+    
+}
+img{
+    position: absolute;
+    top: 50%;
+    right: 210px;
+    transform: translateY(-50%);
+    max-width: 40%;
+    height: 370px;
+}
+.github{
+    width: 35px;
+    height: 35px;
+    top: 70%;
+    left: 190px;
+    border-bottom: #222;
+}
+.discord{
+    width: 41px;
+    height: 41px;
+    top: 70%;
+    left: 227px;
+    border-bottom: #222;
+}
+p3{
+    color: #fff;
+    position:absolute;
+    top: 70%;
+    left: 190px;
+    border-bottom: 1px solid #4b4747;
+    padding-bottom: 5px;
+}
