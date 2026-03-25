@@ -156,7 +156,6 @@ p2{ font-size: 20px;
     height: 35px;
     top: 68%;
     left: 190px;
-    border-bottom: #222;
 }
 .discord{
     position: absolute;
@@ -164,7 +163,6 @@ p2{ font-size: 20px;
     height: 41px;
     top: 68%;
     left: 227px;
-    border-bottom: #222;
 }
 p3{
     color: #fff;
