@@ -11,3 +11,6 @@ In about.html, I just put a whole paragraph of whatever I spoke about myself ove
 In this whole project I used a font called 'shadows-into-light-regular' from fonts.google. I chose that font because it resembled handwritting ad I wanted my portfolio to feel human, hence the font and my text-to-speech stuff.
 
 For the 'send me a message' page, I used 'formspree' to recieve the messages. The code for the label and input was already provided by formspree, though I did make some changes to make it visually appealing.
+
+As for the projects page, it was quite simple with my ONLY TWO projects (T-T)
+I just wrote a description and linked them!
