@@ -147,6 +147,8 @@ img{
     transform: translateY(-50%);
     max-width: 40%;
     height: 370px;
+    border: 1px solid #4b4747;
+    border-radius: 1rem;
 }
 .github{
     width: 35px;
@@ -165,8 +167,8 @@ img{
 p3{
     color: #fff;
     position:absolute;
-    top: 70%;
+    top: 74%;
     left: 190px;
-    border-bottom: 1px solid #4b4747;
-    padding-bottom: 5px;
+    border-top: 1px solid #4b4747;
+    padding-top: 5px;
 }
