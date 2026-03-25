@@ -140,7 +140,7 @@ p2{ font-size: 20px;
     transform: translateY(-50%);
     
 }
-img{
+.tia{
     position: absolute;
     top: 50%;
     right: 210px;
@@ -151,16 +151,18 @@ img{
     border-radius: 1rem;
 }
 .github{
+    position: absolute;
     width: 35px;
     height: 35px;
-    top: 70%;
+    top: 68%;
     left: 190px;
     border-bottom: #222;
 }
 .discord{
+    position: absolute;
     width: 41px;
     height: 41px;
-    top: 70%;
+    top: 68%;
     left: 227px;
     border-bottom: #222;
 }
