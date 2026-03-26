@@ -1,16 +1,68 @@
-This is my simple portfolio! 
-I used HTML, CSS and a little bit of JavaScript for the cursor trail. 
+# Personal Portfolio Website
 
-the index.html has the homepage which *will have* my photo, I am just too indecisive to choose now. It is linked to the style sheet- "style.css".
-To get the highlighted effect on my name I used different colored text shadows when hovering over it, with transition time of 0.3s. 
+This is my personal portfolio website built using HTML, CSS, and a small amount of JavaScript. It showcases my work, interests, and provides a way to get in touch with me.
 
-The Navbar is same in all the pages. I got to know that its the text shadow feature that makes the stuff 'pop', so yeah, I used it a lot. I used the same highlighting thing for the Navbar like I did for my name.
+## Features
 
-In about.html, I just put a whole paragraph of whatever I spoke about myself over the span of 2 minutes instead of typing it all out to make it feel more authentic.
+* Clean and aesthetic design with a handwritten feel
+* Custom cursor trail effect using JavaScript
+* Hover effects using text shadows and smooth transitions
+* Consistent navigation bar across all pages
+* Functional contact form using Formspree
 
-In this whole project I used a font called 'shadows-into-light-regular' from fonts.google. I chose that font because it resembled handwritting ad I wanted my portfolio to feel human, hence the font and my text-to-speech stuff.
+## Pages Overview
 
-For the 'send me a message' page, I used 'formspree' to recieve the messages. The code for the label and input was already provided by formspree, though I did make some changes to make it visually appealing.
+### Home (index.html)
 
-As for the projects page, it was quite simple with my ONLY TWO projects (T-T)
-I just wrote a description and linked them!
+* Main landing page of the website
+* Includes an introduction and space for my photo
+* My name has a highlighted hover effect created using colored text shadows with smooth transitions
+
+### About (about.html)
+
+* Contains a personal introduction
+* The content is based on a natural, spoken-style description to make it feel more authentic
+
+### Projects
+
+* Displays my current projects
+* Each project includes:
+
+  * A short description
+  * A link to access it
+
+### Contact
+
+* “Send me a message” section
+* Built using Formspree for handling submissions
+* Default form structure was customized for better visual design
+
+
+## Design Choices
+
+Font: Shadows Into Light (Google Fonts)
+  Chosen to create a handwritten, personal feel
+
+Styling Approach:
+
+  * Use of text-shadow to create highlight effects
+  * Smooth hover transitions (0.3s)
+  * Consistent styling across navbar and headings
+
+## Technologies Used
+
+* HTML
+* CSS
+* JavaScript (for cursor trail effect)
+* Formspree (for form handling)
+
+## Future Improvements
+
+* Add more projects
+* Improve responsiveness for different screen sizes
+* Enhance interactivity with more JavaScript features
+
+## Note
+
+This is one of my early projects, created while learning web development. It reflects my current skills and interest in building visually engaging and personal designs.
+
